@@ -1,0 +1,1 @@
+'''Points created by a mouse'''
