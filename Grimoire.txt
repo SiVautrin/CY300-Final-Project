@@ -1,0 +1,17 @@
+GRIMOIRE
+
+Open Grimoire.html for illustrated references to the three known spell marks.
+The clues below can help you remember how each form feels.
+Select the matching ink color before drawing: red for fire, gray for wind,
+and brown for earth.
+
+FIRE ATTACK
+A sharp, zigzagging mark that changes direction like a flash across the sky.
+
+WIND BLOCK
+A smooth, curling mark that circles inward, like a gust winding around itself.
+
+EARTH HEAL
+A sturdy mark with four even sides and balanced corners.
+
+See Grimoire.html for reference images.

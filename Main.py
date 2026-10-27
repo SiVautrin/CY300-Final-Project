@@ -1,48 +1,22 @@
 import pygame
-from Player import Player
-from Spell import Spell #list of spells
 
-# --- Config ---
+from Game import Game
+
+
 WIDTH, HEIGHT = 800, 600
-FPS = 60
-
-# --- Player Creation ---
-
-
-
-
-
-
-
-
-
 
 
 def main():
-    # 1. Init
     pygame.init()
     screen = pygame.display.set_mode((WIDTH, HEIGHT))
-    pygame.display.set_caption("My Game")
-    clock = pygame.time.Clock()
+    pygame.display.set_caption("Rock, Paper, Magic")
 
-    running = True
-    # 2. Game loop
-    while running:
-        dt = clock.tick(FPS) / 1000  # seconds since last frame
+    try:
+        Game(screen).run()
+    finally:
+        # Main owns Pygame shutdown so it also happens if the game exits with an error.
+        pygame.quit()
 
-        # 3. Handle events
-        for event in pygame.event.get():
-            if event.type == pygame.QUIT:
-                running = False
-        # 4. Update game state
-        # (move things using dt here)
-
-        # 5. Draw
-        screen.fill((30, 30, 40))
-        # (draw things here)
-        pygame.display.flip()
-
-    pygame.quit()
 
 if __name__ == "__main__":
     main()

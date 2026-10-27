@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Grimoire</title>
+  <style>
+    body {
+      max-width: 900px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+      color: #29231a;
+      background: #f3ead8;
+      font: 1rem/1.5 Georgia, serif;
+    }
+    h1, h2 { color: #563d27; }
+    .spells {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 1rem;
+    }
+    article {
+      padding: 1rem;
+      border: 1px solid #b89a70;
+      border-radius: 10px;
+      background: #fffaf0;
+    }
+    svg {
+      display: block;
+      width: 100%;
+      height: 190px;
+      border: 1px solid #d5c19c;
+      border-radius: 6px;
+      background: #ead8b4;
+    }
+    polyline {
+      fill: none;
+      stroke: #30251a;
+      stroke-width: 7;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+    }
+  </style>
+</head>
+<body>
+  <h1>Grimoire</h1>
+  <p>These are the known spell marks. Study the reference, then try drawing it
+    on the game's parchment.</p>
+
+  <main class="spells">
+    <article>
+      <h2>Fire Attack</h2>
+      <svg viewBox="0 0 200 200" role="img" aria-label="Fire Attack drawing reference">
+        <polyline points="132,24 74,92 111,92 66,176 145,91 108,91 132,24"/>
+      </svg>
+    </article>
+    <article>
+      <h2>Wind Block</h2>
+      <svg viewBox="0 0 200 200" role="img" aria-label="Wind Block drawing reference">
+        <path d="M 170 100 C 170 49 151 30 100 30 C 49 30 30 49 30 100 C 30 151 49 170 100 170 C 139 170 155 150 155 119 C 155 88 136 69 105 69 C 77 69 60 86 60 110 C 60 132 75 145 95 145 C 113 145 125 134 125 118 C 125 104 116 95 104 95 C 94 95 87 101 87 110"
+          fill="none" stroke="#30251a" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+    </article>
+    <article>
+      <h2>Earth Heal</h2>
+      <svg viewBox="0 0 200 200" role="img" aria-label="Earth Heal drawing reference">
+        <polyline points="55,55 145,55 145,145 55,145 55,55"/>
+      </svg>
+    </article>
+  </main>
+</body>
+</html>

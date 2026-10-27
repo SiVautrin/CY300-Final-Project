@@ -21,5 +21,7 @@ python Main.py
 - `DrawingCanvas.py` — spell drawing input
 - `Arena.py` — arena visuals
 - `Game.py` — game flow
+- `Grimoire.html` — illustrated spell references
+- `Grimoire.txt` — spell descriptions and clues
 
 The project partners write and understand the game logic together. AI assistance is intended mainly for visual design and targeted questions.
